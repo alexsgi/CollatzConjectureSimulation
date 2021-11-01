@@ -1,4 +1,5 @@
 
+
 # CollatzConjectureSimulation
 Let's imagine we have a number *n* > 0.
 **Rules:**
@@ -36,7 +37,9 @@ The code applies all mentioned rules above in a loop to all numbers up to n = 10
 
     BigInteger n = new BigInteger("24061547");
   is the first value to check. This can of course be customized.
-  
+
+## How to use
+Open *CollatzConjenctureSimulation.java* and run the main method.
 In addition, another special feature has been implemented: Notification by e-mail.
 
 Open *mail.props* (under resources), set "*enabled*" to **true** and add your SMTP details.
