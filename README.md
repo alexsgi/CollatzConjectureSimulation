@@ -2,6 +2,7 @@
 
 # CollatzConjectureSimulation
 Let's imagine we have a number *n* > 0.
+
 **Rules:**
 
  1. If the number is even, divide it by two
