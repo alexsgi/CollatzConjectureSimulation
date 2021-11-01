@@ -1,0 +1,7 @@
+enabled=false
+host=smtp.example.com
+port=587
+user=example@example.com
+password=Password
+receiver=receiver@example.com
+subject=CollatzConjecture simulation
