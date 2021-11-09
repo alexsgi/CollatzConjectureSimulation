@@ -28,7 +28,7 @@ Let's try it with **n = 3:**
      3 * 1 + 1 = 4
 Now we are back at **4**, accordingly we are now in a **loop**.
 
-What does the Collatz conjencture say now? 
+What does the Collatz conjecture say now? 
 
 *Find a number n > 0 for which you do not end in a loop when applying the rules mentioned.*
 
