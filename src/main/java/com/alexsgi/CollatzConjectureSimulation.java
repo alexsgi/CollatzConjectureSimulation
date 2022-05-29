@@ -32,7 +32,7 @@ public class CollatzConjectureSimulation {
         System.out.println("Sending start mail ...");
         sendMail(String.format("Starting CC simulation at %s by %s on %s", dtf.format(LocalDateTime.now()), System.getProperty("user.name"), InetAddress.getLocalHost().getHostName()));
         System.out.println("Mail init finished");
-        BigInteger n = new BigInteger("24061547");
+        BigInteger n = new BigInteger("24061550197982");
         while (n.compareTo(BIG_INTEGER_MAX_VALUE) < 1) {
             if (startSimulation(n).compareTo(BigInteger.ZERO) == 0) {
                 System.out.println("Found a possible candidate: " + n);
